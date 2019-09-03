@@ -86,7 +86,7 @@ class DetailScreen extends Component {
                     <View><Image source={Images.direction} style={styles.direction} resizeMode={'contain'} /></View>
                 </View>
                 <View>
-                    <Image source={Images.car} style={styles.servicePicture} />
+                    <Image source={Images.car} style={styles.servicePicture}  resizeMode={'contain'}/>
                 </View>
                 <View style={styles.signalContainer}>
                     <View><Image source={Images.gender} style={styles.direction} resizeMode={'contain'} /></View>
