@@ -1,5 +1,5 @@
 
-# QuizApp
+# v-mobileapp
 
 One Paragraph of project description goes here
 
@@ -10,15 +10,19 @@ One Paragraph of project description goes here
 	* Globally installed [node](https://nodejs.org/en/)
 
 	* Globally installed [react-native CLI](https://facebook.github.io/react-native/docs/getting-started.html)
+	
+	* Install android studio and xcode in your system 
 
 
 ### 2. Installation
 
 	On the command prompt run the following commands
 
-	$ cd QuizApp
+	$ cd v-mobileapp
 
 	$ npm or yarn install
+	
+	$ react-native link
 
 ## Platform Supported
 	1. iOS 
@@ -28,6 +32,7 @@ One Paragraph of project description goes here
 	Run `npm run ios` in your terminal
 
 ### Run on Android
+        Run adb devices to check whether emultaor or testing device is attached or not
 	Run `npm run android` in your terminal
 
 ## Technologies and Frameworks Used
@@ -41,7 +46,9 @@ One Paragraph of project description goes here
  7. "redux-persist": "^5.10.0",
  8. "redux-thunk": "^2.3.0",
  9. "react-timer-mixin": "^0.13.4",
- 10. "redux-actions": "^2.6.5"
+ 10. "redux-actions": "^2.6.5",
+ 11. "react-native-maps": "^0.25.0"
+ 
      
   
   
