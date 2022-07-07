@@ -10,7 +10,7 @@
     "eventemitter4": "^0.2.4",
     "idx": "^2.5.5",
     "jetifier": "^1.6.4",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "prop-types": "^15.7.2",
     "react": "16.8.3",
     "react-mixin": "^5.0.0",
